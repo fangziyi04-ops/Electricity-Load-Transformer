@@ -1,0 +1,4 @@
+split,event_count,mean_duration_h,median_duration_h,max_duration_h,events_ge_6h,events_ge_12h
+Train,766,3.881201044386423,2.0,22,176,59
+Validation,39,5.17948717948718,4.0,23,16,4
+Test,119,5.882352941176471,2.0,38,44,24

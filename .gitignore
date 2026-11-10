@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# Model experiments
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Large raw dataset
+data/LD2011_2014.txt
+
+# Ignore experimental model checkpoints
+models/*.pth
+!models/best_transformer_v2.pth
+models/learning_curve_v2/
+
+# Experimental outputs
+outputs/data_audit/
+outputs/error_analysis/
+outputs/learning_curve_v2/
+outputs/lightgbm/
+outputs/peak_classifier/
+outputs/peak_conditions/
+
+# Generated prediction arrays
+outputs/final_evaluation/test_predictions.npz

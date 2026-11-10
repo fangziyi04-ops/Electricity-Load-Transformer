@@ -1,0 +1,2 @@
+model,test_mae_kw,test_rmse_kw,test_bias_kw,test_windows
+Transformer V2,1.5272045135498047,2.8279005773028625,-0.1837708,3923
